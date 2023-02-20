@@ -10,7 +10,8 @@
       v-model="searchFilter"
       :disabled="disabled"
       :placeholder="placeholder"
-      autocomplete="off" />
+      autocomplete="off"
+      ref="input" />
 
     <!-- Dropdown Menu -->
     <div class="dropdown-content"
